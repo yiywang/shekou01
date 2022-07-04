@@ -16,7 +16,7 @@ import time
 enable_gh_action = True  # 启用GitHub Action
 # Bark Push
 enable_bark = True  # 启用Bark推送
-bark_token = "HV5qduxUf5sHmBAUrGURoK"  # Bark推送ID
+bark_token = "ALFZeho8JGZh7eiCR6QKQk"  # Bark推送ID
 # Serverchan Push
 enable_serverchan = False  # 启用Server酱(Turbo)推送
 sct_token = ""  # Sendkey
