@@ -23,8 +23,8 @@ sct_token = ""  # Sendkey
 # Ticket Stuff
 startSite = "SK"  # 始发站点
 endSite = "HKA"  # 目标站点
-startDate = "2022-08-18"  # 船票搜索日期
-endDate = "2022-08-20"
+startDate = "2022-08-01"  # 船票搜索日期
+endDate = "2022-08-30"
 show_available_only = True  # 只显示有票的日期
 # ==================================
 
@@ -85,4 +85,4 @@ if __name__ == '__main__':
                 print(f'{date}:没有可用的船票')
         if enable_gh_action:
             break
-        # time.sleep(10)
+        time.sleep(7200)
